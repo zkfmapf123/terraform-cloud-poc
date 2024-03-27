@@ -63,6 +63,11 @@ terrform apply
 
 6. Git에 Push 하면 Terraform cloud에 반영되게 하기
 
+- Workspace > Setting > Version Control > Version Control Workflow
+
+![8](./public/8.png)
+
+
 ## Issue
 
 ```
