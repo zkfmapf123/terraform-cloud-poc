@@ -1,5 +1,6 @@
 module "dev-vpc" {
-  source = "zkfmapf123/vpc3tier/lee"
+  source  = "zkfmapf123/vpc3tier/lee"
+  version = "1.0.4"
 
   vpc_name   = "dev"
   vpc_region = "ap-northeast-2"
@@ -17,10 +18,10 @@ module "dev-vpc" {
 
   db_subnets = {
     "a" : "10.0.200.0/24"
-    "b" : "10.0.201.0/24"
+    "b" : "10.0.202.0/24"
   }
 }
 
 output "value" {
-  value = module.default-3-tier
+  value = module.dev-vpc
 }

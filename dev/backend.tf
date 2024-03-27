@@ -2,8 +2,8 @@ terraform {
   required_providers {
 
     aws = {
-      source  = "hashcorp/aws"
-      version = "4.48.0"
+      source  = "hashicorp/aws"
+      version = "3.74.2"
     }
   }
 
@@ -12,7 +12,11 @@ terraform {
     organization = "dk-terraform-poc"
 
     workspaces {
-      tags = ["dev"]
+      name = "terraform-dev"
     }
   }
+}
+
+provider "aws" {
+  region = "ap-northeast-2"
 }

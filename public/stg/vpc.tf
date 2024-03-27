@@ -1,5 +1,6 @@
 module "stg-vpc" {
-  source = "zkfmapf123/vpc3tier/lee"
+  source  = "zkfmapf123/vpc3tier/lee"
+  version = "1.0.4"
 
   vpc_name   = "stg"
   vpc_region = "ap-northeast-2"
