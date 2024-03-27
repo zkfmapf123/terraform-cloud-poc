@@ -66,7 +66,7 @@ terrform apply
 - Workspace > Setting > Version Control > Version Control Workflow
 
 ![8](./public/8.png)
-
+![10](./public/10.png)
 
 ## Issue
 
@@ -78,6 +78,14 @@ terrform apply
 - 이걸 variable set에서 설정해줘야 함...
 
 ![7](./public/7.png)
+
+```
+  Setting Version Control 해서 Repository 찾을때 Repository가 안나옴 (100개 이상일때...)
+```
+
+- 직접 입력해야함 org/repository-name
+![9](./public/9.png)
+
 
 ## Reference 
 
